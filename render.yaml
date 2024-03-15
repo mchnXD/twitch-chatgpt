@@ -8,9 +8,9 @@ services:
     startCommand: npm start
     envVars:
       - key: OPENAI_API_KEY
-        value: <your-openai-api-key>
+        value: "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"
       - key: CHANNELS
-        value: <your-twitch-channel>
+        value: "mchn"
       - key: GPT_MODE
         value: "CHAT"
       - key: HISTORY_LENGTH
